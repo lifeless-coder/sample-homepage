@@ -1,0 +1,268 @@
+*{
+    font-family: "Open Sans", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+.sec-title{
+    font-size: 38px;
+    font-weight: 750;
+    font-family: "Poppins", sans-serif;
+    color: #0b163f;
+    box-sizing: inherit;
+}
+/* header start */
+.header{
+    box-sizing: border-box;
+    box-shadow: #a7a6a63a 0px 10px 20px;
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    background-color: white;
+}
+
+    
+.row{
+    width: 100%;
+    margin-top: 20px;
+}
+.col{
+    float: left;
+    overflow: hidden;
+}
+.col-md-3{
+    
+    margin: 0px 20px 0px 0px;
+    width: 20%;
+}
+.col-md-5{
+    width: 50%;
+    margin-top: 15px;
+}
+.col-md-4{
+    width:auto;
+}
+.logo{
+    margin-top: 4px;
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+
+/* navbar style start */
+.nav{
+    margin-left: 20px;
+    font-size: default;
+    font-weight: bold;
+}
+.nav ul{
+    list-style-type: none;
+}
+.nav ul li{
+    display: inline-block;
+    margin-right: 40px;
+}
+.nav ul li a{
+    transition: .3s;
+    color: #575757;
+}
+.nav ul li:hover a{
+    color: #0d6efd;
+}
+/* navbar style end */
+
+.headright a{
+    margin-left: 30px;
+    font-weight: bold;
+    color: #575757;
+    transition: .3s;
+}
+.headright a:hover {
+    color: #0d6efd;
+}
+.headright button{
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-left: 20px;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: #0d6efd;;
+    border-radius: 5px;
+    border: 0px;
+    padding: 15px 35px;
+    transition: .3s;
+}
+.headright a button:hover{
+    background-color: darkblue;
+}
+
+/* header end */
+
+/* hero dection style start */
+
+.hero-sec{
+    margin: 0px 0px 50px 0px;
+    background-color: #0b163f;
+    height: 790px;
+    overflow: hidden;
+}
+.hero{
+    width: 100%;
+    padding: 200px 0px;
+}
+.hero-conteiner{
+    margin-left: 60px;
+
+}
+.col-md-6{
+    width: 50%;
+}
+.intro h3{
+    margin-left: 15px;
+    color: #ffb116;
+    font-weight: bold;
+}
+.intro h1{
+    line-height: 55px;
+    margin-left: 15px;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+.intro p{
+    margin-left: 15px;
+    margin-top: 10px;
+    color: #d9d9d9;
+    line-height: 35px;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+.buttons a{
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+/* .left-btn{
+    width: 40%;
+}
+.right-btn{
+    width: 30%;
+} */
+.demo{
+    color: #ddd;
+    font-weight: bold;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #0d6efd;
+    padding: 15px 30px;
+    overflow: hidden;
+    transition: .3s;
+}
+.buttons a:hover{
+    background-color: #0b163f;
+}
+.learn{
+    color: #ddd;
+    font-weight: bold;
+    box-sizing: border-box;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: transparent;
+    border-width: 2px;
+    border-color: #d9d9d9;
+    padding: 13px 27px;
+    overflow: hidden;
+    transition: .3s;
+}
+.buttons a:hover{
+    background-color: #d9d9d9;
+    color: darkblue;
+}
+.top-clients{
+    margin-top: 70px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.top-clients p{
+    color: #b6bac6;
+    font-weight: bold;
+}
+.ban-img img{
+    width: 90%;
+}
+
+/* hero dection style end */
+
+/* connection section style start */
+.connect{
+    height: 580px;
+}
+.con-main{
+    width: 92%;
+    margin-top: 70px ;
+    padding: 30px 50px;
+    text-align: center;
+    
+}
+.connect-heading{
+    text-align: center;
+}
+.connect-heading p{
+    color: #575757;
+}
+
+.card-row{
+    width: 100%;
+    margin-top: 50px;
+    
+}
+.card-col-md-4{
+    width: 31%;
+    margin-right: 20px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color:white;
+    padding: 70px 0px;
+    box-shadow: 20px 20px 30px #f1f1fc;
+}
+.cbox h3{
+    font-weight: 800px;
+}
+.cbox p{
+    color: #575757;
+}
+.cbox img{
+    width: 20%;
+    
+}
+
+/* connection section style end */
+
+/* company section style start */
+.img1{
+    width: 13%;
+    margin-right: 50px;
+}
+
+.company-sec{
+    margin-top: 500px;
+    margin: 50px;
+}
+.com-conteiner{
+    margin: 100px;
+    text-align: center;
+}
+.logo-row{
+    margin: 35px 0px;
+}
+.company-pera{
+    color: #0b163f;
+    font-weight: bold;!important
+}
+
+/* company section style start */
+
+
